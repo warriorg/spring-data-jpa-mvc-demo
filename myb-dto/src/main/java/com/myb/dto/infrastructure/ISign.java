@@ -1,0 +1,1 @@
+/** *  */package com.myb.dto.infrastructure;/** * @author warrior * */public interface ISign {	/***	 * 生成Key	 * @return	 */	String toKey();}

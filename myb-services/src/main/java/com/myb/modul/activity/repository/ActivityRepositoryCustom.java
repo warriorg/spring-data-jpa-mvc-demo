@@ -1,0 +1,1 @@
+/** *  */package com.myb.modul.activity.repository;import java.util.List;import com.myb.dto.activity.EventListParamTo;/** * @author warrior * */public interface ActivityRepositoryCustom {		List<?> searchEventList(EventListParamTo param);	}

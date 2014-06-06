@@ -1,0 +1,1 @@
+/** *  */package com.myb.infrastructure.assembler;/** * @author warrior * */public interface IAssembler<T,E> {	/***	 *  data object transfer to persistant object	 * @param e	 * @return	 */	T toTo(E e);	/***	 * persistant object transfer to data object	 * @param t	 * @return	 */	E toPo(T t);}
